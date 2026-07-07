@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>AlgoLens | Visualize. Understand. Master Algorithms.</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet"
+        href="https://unpkg.com/lucide-static/font/lucide.css">
+</head>
+
+<body>
+
+<header>
+
+    <nav class="navbar">
+
+        <div class="logo">
+            <a href="index.html" >
+
+            <img src="assets/logos/AlgoLens_logo.png" alt="AlgoLens Logo">
+
+        </div>
+
+        <ul class="nav-links">
+
+            <li><a href="pages/dashboard.html">Algorithms</a></li>
+
+            <li><a href="pages/compare.html">Compare</a></li>
+
+            <li><a href="pages/notes.html">Notes</a></li>
+
+            <li><a href="pages/quiz.html">Quiz</a></li>
+
+        </ul>
+
+    </nav>
+
+</header>
+
+<main>
+
+    <!-- ================= HERO ================= -->
+
+    <section class="hero">
+
+        <div class="hero-content">
+
+            <h1>
+                Visualize. Understand.<br>
+                Master Algorithms.
+            </h1>
+
+            <p>
+
+                AlgoLens transforms complex algorithms into beautiful interactive
+                visualizations, making Data Structures & Algorithms easier to learn
+                through animations, comparisons and execution tracing.
+
+            </p>
+
+            <a href="pages/dashboard.html" class="primary-btn">
+
+                Get Started
+
+                <span class="arrow">→</span>
+
+            </a>
+
+        </div>
+
+    </section>
+
+    <!-- ================= FEATURES ================= -->
+
+    <section id="features" class="features">
+
+        <h2>Why Choose AlgoLens?</h2>
+
+        <div class="feature-grid">
+
+            <div class="card">
+
+                <h3>Interactive Visualization</h3>
+
+                <p>
+                    Watch algorithms execute step by step.
+                </p>
+
+            </div>
+
+            <div class="card">
+
+                <h3>Execution Timeline</h3>
+
+                <p>
+                    Understand every comparison, swap and traversal.
+                </p>
+
+            </div>
+
+            <div class="card">
+
+                <h3>Call Stack</h3>
+
+                <p>
+                    Visualize recursion with stack animations.
+                </p>
+
+            </div>
+
+            <div class="card">
+
+                <h3>Comparison Mode</h3>
+
+                <p>
+                    Compare algorithms side by side.
+                </p>
+
+            </div>
+
+            <div class="card">
+
+                <h3>Complexity Analysis</h3>
+
+                <p>
+                    Understand time and space complexity visually.
+                </p>
+
+            </div>
+
+            <div class="card">
+
+                <h3>Responsive Design</h3>
+
+                <p>
+                    Optimized for desktop, tablet and mobile.
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- ================= ALGORITHM CATEGORIES ================= -->
+
+    <section id="algorithms" class="algorithms">
+
+        <h2>Supported Algorithms</h2>
+
+        <div class="algorithm-grid">
+
+            <div class="algo-card">Sorting</div>
+
+            <div class="algo-card">Searching</div>
+
+            <div class="algo-card">Trees</div>
+
+            <div class="algo-card">Graphs</div>
+
+            <div class="algo-card">Recursion</div>
+
+        </div>
+
+    </section>
+
+    <!-- ================= LIVE DEMO ================= -->
+
+    <section class="live-demo">
+
+    <h2>Live Bubble Sort Demo</h2>
+
+    <p class="section-description" style="margin-bottom: 20px;">
+
+        Watch Bubble Sort execute automatically. Explore the full interactive workspace for complete controls.
+
+
+
+    </p>
+
+
+    <div class="demo-container">
+
+        <div class="demo-header">
+
+            <h3>Bubble Sort</h3>
+
+            <div class="demo-controls">
+
+                <button id="playBtn">▶ Play</button>
+
+                <button id="restartBtn">⟳ Restart</button>
+
+                <label>
+
+                    Speed
+
+                    <input
+                        id="speedSlider"
+                        type="range"
+                        min="1"
+                        max="5"
+                        value="3">
+
+                </label>
+
+            </div>
+
+        </div>
+
+        <div class="bars-container" id="barsContainer">
+
+        </div>
+
+        <div class="demo-status" id="demoStatus">
+
+            Ready to start...
+
+        </div>
+
+    </div>
+
+</section>
+    <!-- ================= WHY ALGOLENS ================= -->
+
+    <section class="why">
+
+        <h2>Built for Learning & Interview Preparation</h2>
+
+        <div class="why-grid">
+
+            <div class="why-card">
+
+                <h3>Learn Faster</h3>
+
+                <p>
+
+                    Visual explanations improve understanding and retention.
+
+                </p>
+
+            </div>
+
+            <div class="why-card">
+
+                <h3>Interview Ready</h3>
+
+                <p>
+
+                    Strengthen DSA concepts with interactive execution.
+
+                </p>
+
+            </div>
+
+            <div class="why-card">
+
+                <h3>Modern Learning</h3>
+
+                <p>
+
+                    A better alternative to static textbook diagrams.
+
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+</main>
+
+<!-- ================= FOOTER ================= -->
+
+<footer>
+
+    <div class="footer-content">
+
+        <h2>AlgoLens</h2>
+
+        <p>
+            Visualize. Understand. Master Algorithms.
+        </p>
+
+    </div>
+
+</footer>
+
+<script src="js/index.js"></script>
+
+</body>
+
+</html>

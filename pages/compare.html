@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>AlgoLens | Compare Algorithms</title>
+
+    <link rel="stylesheet" href="../css/compare.css">
+
+</head>
+
+<body>
+  <header>
+     <nav class="navbar">
+
+        <div class="logo">
+              
+            <a href="../index.html">
+
+            <img src="../assets/logos/AlgoLens_logo.png" alt="AlgoLens Logo">
+
+        </div>
+
+        <ul class="nav-links">
+
+            <li><a href="../pages/dashboard.html">Algorithms</a></li>
+
+            <li><a href="../pages/compare.html" class="active">Compare</a></li>
+
+            <li><a href="../pages/notes.html">Notes</a></li>
+
+            <li><a href="../pages/quiz.html">Quiz</a></li>
+
+        </ul>
+
+    </nav>
+    </header>
+    <div class="container">
+
+        <h1>Compare Algorithms</h1>
+
+        <p class="subtitle">
+            Compare time complexity, space complexity and characteristics of two algorithms.
+        </p>
+
+        <div class="selection">
+
+            <select id="algo1">
+
+                <option value="">Select Algorithm</option>
+
+                <optgroup label="Sorting">
+
+                    <option value="bubble">Bubble Sort</option>
+                    <option value="selection">Selection Sort</option>
+                    <option value="insertion">Insertion Sort</option>
+                    <option value="merge">Merge Sort</option>
+                    <option value="quick">Quick Sort</option>
+
+                </optgroup>
+
+                <optgroup label="Searching">
+
+                    <option value="linear">Linear Search</option>
+                    <option value="binary">Binary Search</option>
+
+                </optgroup>
+
+                <optgroup label="Trees">
+
+                    <option value="bst">BST</option>
+                    <option value="inorder">Inorder Traversal</option>
+                    <option value="preorder">Preorder Traversal</option>
+                    <option value="postorder">Postorder Traversal</option>
+                    <option value="levelorder">Level Order</option>
+
+                </optgroup>
+
+                <optgroup label="Graphs">
+
+                    <option value="bfs">BFS</option>
+                    <option value="dfs">DFS</option>
+
+                </optgroup>
+
+                <optgroup label="Recursion">
+
+                    <option value="factorial">Factorial</option>
+                    <option value="fibonacci">Fibonacci</option>
+
+                </optgroup>
+
+            </select>
+
+            <select id="algo2">
+
+                <option value="">Select Algorithm</option>
+
+                  <optgroup label="Sorting">
+
+                    <option value="bubble">Bubble Sort</option>
+                    <option value="selection">Selection Sort</option>
+                    <option value="insertion">Insertion Sort</option>
+                    <option value="merge">Merge Sort</option>
+                    <option value="quick">Quick Sort</option>
+
+                </optgroup>
+
+                <optgroup label="Searching">
+
+                    <option value="linear">Linear Search</option>
+                    <option value="binary">Binary Search</option>
+
+                </optgroup>
+
+                <optgroup label="Trees">
+
+                    <option value="bst">BST</option>
+                    <option value="inorder">Inorder Traversal</option>
+                    <option value="preorder">Preorder Traversal</option>
+                    <option value="postorder">Postorder Traversal</option>
+                    <option value="levelorder">Level Order</option>
+
+                </optgroup>
+
+                <optgroup label="Graphs">
+
+                    <option value="bfs">BFS</option>
+                    <option value="dfs">DFS</option>
+
+                </optgroup>
+
+                <optgroup label="Recursion">
+
+                    <option value="factorial">Factorial</option>
+                    <option value="fibonacci">Fibonacci</option>
+
+                </optgroup>
+
+            </select>
+
+            <button id="compareBtn">
+                Compare
+            </button>
+
+        </div>
+
+        <div id="comparison" class="comparison">
+
+            <div class="card" id="leftCard">
+
+            </div>
+
+            <div class="card" id="rightCard">
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <script src="../js/algorithmData.js"></script>
+
+    <script src="../js/compare.js"></script>
+
+</body>
+
+</html>

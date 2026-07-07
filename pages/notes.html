@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>AlgoLens | Notes</title>
+
+    <link rel="stylesheet" href="../css/notes.css">
+    <link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css">
+
+</head>
+
+<body>
+    <header>
+         <nav class="navbar">
+
+        <div class="logo">
+
+            <a href="../index.html">
+
+                <img src="../assets/logos/AlgoLens_logo.png" alt="AlgoLens Logo">
+
+            </a>
+
+        </div>
+
+        <ul class="nav-links">
+
+            <li><a href="dashboard.html" >Algorithms</a></li>
+
+            <li><a href="compare.html">Compare</a></li>
+
+            <li><a href="notes.html" class="active">Notes</a></li>
+
+            <li><a href="quiz.html">Quiz</a></li>
+
+        </ul>
+
+    </nav>
+  </header>
+
+<div class="container">
+
+    <h1>DSA Notes</h1>
+
+    <p class="subtitle">
+        Learn algorithms through concise notes.
+    </p>
+
+    <div class="top">
+
+        <input
+            type="text"
+            id="searchBox"
+            placeholder="Search Algorithm..."
+        >
+
+        <select id="category">
+
+            <option value="All">All Categories</option>
+
+            <option value="Sorting">Sorting</option>
+
+            <option value="Searching">Searching</option>
+
+            <option value="Trees">Trees</option>
+
+            <option value="Graphs">Graphs</option>
+
+            <option value="Recursion">Recursion</option>
+
+        </select>
+
+    </div>
+
+    <div class="content">
+
+        <div class="sidebar"
+             id="algorithmList">
+
+        </div>
+
+        <div class="noteCard"
+             id="noteContent">
+
+            <h2>
+
+                Select an Algorithm
+
+            </h2>
+
+            <p>
+
+                Choose any algorithm from the left.
+
+            </p>
+
+        </div>
+
+    </div>
+
+</div>
+
+<script src="../js/notesData.js"></script>
+
+<script src="../js/notes.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-cpp.min.js"></script>
+
+</body>
+
+</html>
