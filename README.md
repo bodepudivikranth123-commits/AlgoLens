@@ -1,78 +1,61 @@
-# AlgoLens – Visualize. Understand. Master Algorithms.
+<h1 align="center">🚀 AlgoLens</h1>
 
-AlgoLens is an interactive Data Structures and Algorithms (DSA) visualization platform designed to make learning algorithms intuitive and engaging. It combines step-by-step visualizations, live demonstrations, detailed notes, algorithm comparisons, and quizzes into a single web application.
+<p align="center">
+<b>Visualize. Understand. Master Algorithms.</b>
+</p>
 
----
+<p align="center">
+An interactive platform for learning Data Structures & Algorithms through visualizations, live demonstrations, quizzes, comparisons, and detailed notes.
+</p>
 
-## Live Demo
+<p align="center">
 
-🔗 https://YOUR_USERNAME.github.io/AlgoLens/
+![HTML](https://img.shields.io/badge/HTML-5-orange?style=for-the-badge&logo=html5)
+![CSS](https://img.shields.io/badge/CSS-3-blue?style=for-the-badge&logo=css3)
+![JavaScript](https://img.shields.io/badge/JavaScript-ES6-yellow?style=for-the-badge&logo=javascript)
+![Status](https://img.shields.io/badge/Status-Completed-success?style=for-the-badge)
 
----
-
-## Features
-
-### Interactive Algorithm Visualizations
-Visualize algorithms step-by-step with explanations and code.
-
-#### Sorting
-- Bubble Sort
-- Selection Sort
-- Insertion Sort
-- Merge Sort
-- Quick Sort
-
-#### Searching
-- Linear Search
-- Binary Search
-
-#### Trees
-- Binary Search Tree Search
-- Inorder Traversal
-- Preorder Traversal
-- Postorder Traversal
-- Level Order Traversal
-
-#### Graphs
-- Breadth First Search (BFS)
-- Depth First Search (DFS)
-
-#### Recursion
-- Factorial Recursion Tree
-- Fibonacci Recursion Tree
+</p>
 
 ---
 
-## Live Bubble Sort Demo
+# ✨ Overview
 
-The homepage includes a continuously animated Bubble Sort demonstration featuring:
+AlgoLens is an educational web application that transforms algorithm learning into an interactive experience.
 
-- Dynamic array generation
-- Real-time sorting animation
-- Speed control
-- Restart functionality
-- Color-coded comparisons and sorted elements
+Instead of simply reading code, users can **visualize**, **compare**, **practice**, and **understand** algorithms through animations and explanations.
 
 ---
 
-## Compare Algorithms
+# 🌟 Features
 
-Compare two algorithms side-by-side based on:
+### 🎯 Interactive Workspace
 
-- Time Complexity
-- Space Complexity
-- Difficulty
-- Advantages
-- Disadvantages
-- Applications
+Visualize algorithms step-by-step with
 
-Users can directly navigate to the visualization workspace from the comparison page.
+- Code
+- Pseudocode
+- Complexity Analysis
+- Variable Tracking
+- Execution Explanation
 
 ---
 
-## Notes
+### 📊 Supported Algorithms
 
-Each algorithm includes comprehensive notes covering:
+| Category | Algorithms |
+|-----------|------------|
+| Sorting | Bubble, Selection, Insertion, Merge, Quick |
+| Searching | Linear Search, Binary Search |
+| Trees | BST Search, Inorder, Preorder, Postorder, Level Order |
+| Graphs | BFS, DFS |
+| Recursion | Factorial, Fibonacci |
+
+---
+
+### 📚 Notes
+
+Every algorithm includes
 
 - Definition
 - Algorithm
@@ -85,133 +68,117 @@ Each algorithm includes comprehensive notes covering:
 
 ---
 
-## Quiz
+### ⚖️ Compare Algorithms
 
-Test your DSA knowledge with interactive quizzes.
+Compare any two algorithms based on
 
-Features include:
-
-- 100+ Questions
-- Difficulty Levels
-- Category Filters
-- Instant Score Calculation
-- Correct Answer Review
-- Explanation of Wrong Answers
+- Time Complexity
+- Space Complexity
+- Difficulty
+- Applications
+- Advantages
+- Disadvantages
 
 ---
 
-## Technologies Used
+### 📝 Quiz
+
+Challenge yourself with
+
+- 100+ Questions
+- Category-wise Questions
+- Difficulty Levels
+- Instant Evaluation
+- Correct Answer Review
+
+---
+
+### 🎥 Live Bubble Sort Demo
+
+Watch Bubble Sort execute automatically on the homepage with animated bars.
+
+---
+
+# 🛠 Tech Stack
 
 - HTML5
 - CSS3
 - JavaScript (ES6)
-- Prism.js (Syntax Highlighting)
+- Prism.js
 
 ---
 
-## Project Structure
+# 📂 Project Structure
 
-```
+```text
 AlgoLens
-│
-├── index.html
-│
-├── css
-│   ├── style.css
-│   ├── workspace.css
-│   ├── notes.css
-│   ├── compare.css
-│   └── quiz.css
-│
-├── js
-│   ├── home.js
-│   ├── workspace.js
-│   ├── notes.js
-│   ├── notesData.js
-│   ├── compare.js
-│   └── quiz.js
-│
-├── algorithms
-│
-├── pages
-│   ├── workspace.html
-│   ├── compare.html
-│   ├── notes.html
-│   └── quiz.html
-│
-└── assets
+│── index.html
+│── assets/
+│── css/
+│── js/
+│── algorithms/
+│── pages/
+└── README.md
 ```
 
 ---
 
-## How to Run
+# 🚀 Getting Started
 
-1. Clone the repository
+Clone the repository
 
+```bash
+git clone https://github.com/bodepudivikranth123-commits/AlgoLens.git
 ```
-git clone https://github.com/YOUR_USERNAME/AlgoLens.git
+
+Move into the project
+
+```bash
+cd AlgoLens
 ```
 
-2. Open the project folder.
-
-3. Open `index.html` in your browser.
-
-OR
-
-Deploy using GitHub Pages.
+Open `index.html` in your browser.
 
 ---
 
-## Screenshots
+# 🎯 Why AlgoLens?
 
-### Home Page
+✔ Learn algorithms visually
 
-(Add Screenshot)
+✔ Understand recursion through trees
 
-### Workspace
+✔ Compare algorithms side-by-side
 
-(Add Screenshot)
+✔ Test knowledge with quizzes
 
-### Live Bubble Sort Demo
+✔ Study detailed notes
 
-(Add Screenshot)
-
-### Compare Page
-
-(Add Screenshot)
-
-### Notes
-
-(Add Screenshot)
-
-### Quiz
-
-(Add Screenshot)
+✔ Explore live algorithm demonstrations
 
 ---
 
-## Future Improvements
+# 🔮 Future Scope
 
-- Dark Mode
-- Additional Graph Algorithms
 - Dynamic Programming Visualizations
-- Heap Visualizations
-- Download Visualization as GIF
+- Graph Algorithm Expansion
+- Dark Theme
+- Additional Sorting Algorithms
 - User Progress Tracking
 
 ---
 
-## Author
+# 👨‍💻 Author
 
 **Vikranth Bodepudi**
 
-B.Tech CSE  
+B.Tech – Computer Science & Engineering
+
 National Institute of Technology Warangal
 
-GitHub: https://github.com/YOUR_USERNAME
+GitHub: https://github.com/bodepudivikranth123-commits
 
 ---
 
-## License
-
-This project is developed for educational purposes.
+<p align="center">
+Made with ❤️ for DSA learners.
+</p>
